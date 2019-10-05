@@ -1,4 +1,108 @@
+
 body {
-    background-image: image('img/background.jpg');
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 550;
+
+    background-color: gainsboro;
+    background-image: url("img/background.JPG");
+    background-position: top center;
     background-repeat: no-repeat;
 }
+
+.header__img {
+    display: block;
+    height: 75px;
+    margin: 50px auto;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.about {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img {
+    border: 5px ridge #606060;
+}
+
+.interests {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.interests h2 {
+    font-weight: 500;
+}
+
+.interests__block {
+    border: 3px solid grey;
+    width: 250px;
+}
+
+.interests__block ul,
+.interests__block li  {
+    list-style: none;
+    padding: 0;
+}
+
+.motivation {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.motivation p {
+    width: 500px;
+}
+
+.motivation span {
+    color: darkred;
+    padding-top: 40px;
+}
+
+.motivation .logo1 {
+    font-size: 100px;
+}
+
+.motivation .logo2 {
+    font-size: 80px;
+}
+
+
+.social {
+    text-align: center;
+}
+
+.social__list {
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social__item {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .ref, .ref a {
+      text-align: center;
+      font-size: 10px;
+      color: grey;
+      margin: 5px auto;
+      width: 500px;
+  }
