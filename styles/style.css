@@ -1,0 +1,129 @@
+
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 550;
+
+    background-color: gainsboro;
+    background-image: url("../images/background.JPG");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+h1::first-letter {
+    color: darkred;
+}
+
+.container {
+    height: 100%;
+}
+
+.header__img {
+    display: block;
+    height: 75px;
+    margin: 50px auto;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.about {
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.about img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.interests {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.interests h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.interests__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.6);
+    color: white;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+.interests__block ul,
+.interests__block li  {
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+}
+
+.motivation {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    color: darkred;
+}
+
+.motivation p {
+    width: 500px;
+}
+
+.motivation span {
+    padding-top: 20px;
+}
+
+.motivation .logo1 {
+    font-size: 100px;
+}
+
+.motivation .logo2 {
+    font-size: 80px;
+}
+
+
+.social {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.social__list {
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social__item {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .ref, .ref a {
+      text-align: center;
+      font-size: 10px;
+      color: grey;
+      margin: 5px auto;
+      width: 500px;
+  }
